@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.div-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.div-logo h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    color: #d17878;
+    line-height: 1.2;
+}
+
+.div-pages ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.page {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #ec407a;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.page::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #ec407a;
+    bottom: -4px;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+.page:hover {
+    color: #d63384;
+}
+
+.page:hover::after {
+    width: 100%;
+}
+
+.div-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-icon{
+    background-color: transparent;
+    border: none;
+    color: #d17878;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.nav-icon:hover {
+    color: #ec407a;
+}

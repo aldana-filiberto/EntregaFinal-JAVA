@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Poppins:wght@300;400;600&display=swap');
+
+footer {
+    background-color: #fff0f5;
+    border-top: 2px solid #ffb6c1;
+    padding: 2rem 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: #5a3e36;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-brand {
+    font-family: 'Italianno', cursive;
+    font-size: 2.5em;
+    color: #d17878;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-socials a {
+    color: #ec407a;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.footer-socials a:hover {
+    transform: scale(1.2);
+    color: #ff69b4;
+}
+
+.footer-copy {
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 1rem;
+    color: #8e4d4d;
+}

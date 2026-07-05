@@ -1,0 +1,90 @@
+.detalle-producto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #fff0f5;
+    min-height: 100vh;
+}
+
+.detalle-card {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 900px;
+    width: 100%;
+}
+
+.imagen-detalle {
+    width: 50%;
+    object-fit: cover;
+    border-right: 1px solid #ffd6dc;
+}
+
+.info-detalle {
+    padding: 2rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-detalle h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #d6336c;
+}
+
+.descripcion {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.precio {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e63946;
+    margin-bottom: 0.5rem;
+}
+
+.stock {
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    color: #666;
+}
+
+.botones-detalle {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-rosa {
+    background-color: #ff69b4;
+    color: white;
+}
+
+.btn-rosa:hover {
+    background-color: #e0559e;
+}
+
+.btn-volver {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.btn-volver:hover {
+    background-color: #e0e0e0;
+}

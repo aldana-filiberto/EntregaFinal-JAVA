@@ -1,0 +1,7 @@
+/*----------------------------------------------------- HEADER --------------------------------------------------------------------*/
+header {
+    background-color: #fff0f5;
+    border-bottom: 2px solid #f9c5c5;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 4px 8px rgba(255, 182, 193, 0.2);
+}
