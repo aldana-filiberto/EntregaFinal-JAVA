@@ -300,6 +300,23 @@ El frontend quedará disponible normalmente en:
 http://localhost:5173
 ```
 
+Las credenciales de acceso segun el rol son:
+
+```
+
+    {
+        "email": "admin@example.com",
+        "password": "admin123",
+        "role": "admin"
+    },
+    {
+        "email": "client@example.com",
+        "password": "cliente123",
+        "role": "cliente"
+    }
+```
+
+
 ---
 
 # 📌 Flujo de funcionamiento
